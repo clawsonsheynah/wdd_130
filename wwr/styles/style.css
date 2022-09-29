@@ -1,13 +1,29 @@
-#background {
-    height: 725px;
-}
-body {
-    background-color: #fcfbfb; 
-}
-header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: black;
-}
-    
+<body>
+    <div id="content">
+        <header>
+    . . .
+        </footer>
+    </div>
+</body>
+div {
+    height: 200px;
+    width: 1600%;
+    background-color: powderblue;
+  }
+  div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  }
+  
+  div.c {
+    text-align: justify;
+  }
+  p {
+  }
