@@ -1,4 +1,3 @@
-@import geneva, Century Gothic
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -6,8 +5,9 @@
 
 nav a{
   text-align: center;
-  color: #000000
+  color: #FFBF69;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -28,41 +28,121 @@ main section{
 
 body{
   background-color: #CBF3F0;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  font-size: 22px;
   margin:0;
+  padding:0;
 }
 
-header{
-  background-color: #FFBF69;
+h2 {
+  margin: 0;
+}
+
+.home-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.msg h2{
+  background-color: blanchedalmond;
 }
 
 nav a:hover{
-  background-color: orange
-  color: #ff9f1c;
+  background-color: orange;
+  color: white;
 }
 
 .book, .join{
  text-align: center;
-  background-color: orange
-  color: #FFBF69;
+ font-size: 18px;
+  background-color: white;
+  color: burlywood;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
 }
 
 .book:hover, .join:hover{
-  background-color: orange
-  color: #ff9f1c;
+  background-color: white;
+  color: black;
 }
 
 #background{
-  background-color: turquoise
+  background-color: whitesmoke;
   color: #CBF3F0;
 }
 
 .msg{
-  background-color: orange
-  color: #ff9f1c;
+  background-color: blanchedalmond;
+  line-height: 1.5em;
+  color: black;
+  padding-bottom: 15px;
 }
 
 footer{
-  background-color: orange 
-  color: #FFBF69;
+  background-color: blanchedalmond ;
+  color: black;
+  padding: 25px 50px;
+}
+
+#logo_link{
+  padding-top: 5px;
+} 
+
+nav a{
+  padding: 35px;
+} 
+
+.book, .join{
+  padding: 15px 30px;
+  border-radius: 5px; 
+}  
+
+.icon{
+  padding-top: 10px;
+}   
+
+.msg{
+  padding: 35px; 
+}   
+
+.msg p{
+  padding-bottom: 15px;
+}   
+
+footer{
+  padding: 25px 50px;
+}  
+
+footer .social img{
+  padding-top: 15px;
+} 
+
+.rivers-card, .camping-card, .rapid-cards {
+  margin:200px 0;
+}
+
+footer {
+  margin-top: 200px
+}
+
+.card-img {
+  border-color:black;
+  border:10px;
+}
+
+main section img{
+  box-sizing: border-box;
+}
+.logo {
+width: 80px;
+}
+
+#hero-img {
+width: 100%
+}
+
+footer p a, footer div a{
+text-decoration: none;
 }
