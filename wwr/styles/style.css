@@ -152,11 +152,11 @@ footer .social img{
 } 
 
 .rivers-card, .camping-card, .rapid-cards {
-  margin:100px 0;
+  margin:200px 0;
 }
 
 .rivers-card {
-  grid-column: 2/4;
+  grid-column: 2/2;
   grid-row: 2/3;
 }
 
