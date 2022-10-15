@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@200&display=swap');
+body {
+  font-family: "Crimson Text", Arial, Helvetica, sans-serif;
+}
 #content {
   max-width: 1600px;
   margin: 0 auto;
+}
+#hero, .home-grid {
+  display: grid;
+  height: auto;
+}
+.home-grid {
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 nav a{
@@ -14,6 +25,7 @@ nav a{
   text-align: center;
 }
 header {
+  background-color: beige;
   display: grid;
   grid-template-columns: 150px auto;
 }
@@ -150,27 +162,27 @@ footer .social img{
   padding-top: 15px;
 } 
 
-.rivers-card, .camping-card, .rapid-cards {
+.rivers-card, .camping-card, .rapids-card {
   margin:200px 0;
 }
 
 .rivers-card {
-  grid-column: 1/4;
+  grid-column: 2/4;
   grid-row: 2/3;
 }
 
 .camping-card {
-  grid-column: 4/7;
+  grid-column: 5/7;
   grid-row: 2/3;
 }
 
 .rapids-card {
-  grid-column: 7/10;
+  grid-column: 8/10;
   grid-row: 2/3;
 }
 
 #background {
-  grid-column: 1/7;
+  grid-column: 1/11;
   grid-row: 4/9;
 }
 
@@ -241,19 +253,19 @@ width: 80px;
 width: 100%
 }
 
-footer p a, footer div a{
+footer a, footer a{
 text-decoration: none;
+color: beige;
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
   #hero, .home-grid {
-      display: grid;
+      display: block;
       height: auto;
   }
-  .home-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
+  
+  
   nav, footer {
       flex-direction: column;
   }
