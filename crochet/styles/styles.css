@@ -205,6 +205,11 @@ footer {
   transform: scale(1.1);
 }
 
+.main-paragraph {
+    grid-column: 1/10;
+    grid-row: 3;
+}
+
 main section img{
   box-sizing: border-box;
 }
